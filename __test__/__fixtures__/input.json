@@ -1,0 +1,16 @@
+{
+  {
+    count: "2",
+    type: "pillow",
+    fabric: "satinLux"
+    width: 50,
+    height: 50,
+
+  },
+  {
+    type: "sheet"
+  },
+  {
+    type: "duvet"
+  }
+}
