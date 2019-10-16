@@ -1,16 +1,25 @@
-{
+[
   {
-    count: "2",
-    type: "pillow",
-    fabric: "satinLux"
-    width: 50,
-    height: 50,
-
+    "count": 2,
+    "type": "pillow",
+    "fabric": 6021,
+    "width": 50,
+    "height": 50,
+    "flange": {
+      "byWidth": 5,
+      "byHeight": 0,
+      "around": 5
+    },
+    "flap": 25
   },
   {
-    type: "sheet"
+    "type": "sheet",
+    "width": 50,
+    "height": 50
   },
   {
-    type: "duvet"
+    "type": "duvet",
+    "width": 50,
+    "height": 50
   }
-}
+]

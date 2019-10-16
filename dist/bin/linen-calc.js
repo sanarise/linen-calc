@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+"use strict";
+
+var _commander = _interopRequireDefault(require("commander"));
+
+var _package = require("../../package.json");
+
+var _ = _interopRequireDefault(require(".."));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+const processAction = inputPath => {
+  console.log((0, _.default)(inputPath));
+};
+
+_commander.default.description('Calculates the cutting of a set of bed linen.').version(_package.version).arguments('<input_file>').action(processAction).parse(process.argv);
+
+if (_commander.default.args.length === 0) {
+  _commander.default.help();
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9iaW4vbGluZW4tY2FsYy5qcyJdLCJuYW1lcyI6WyJwcm9jZXNzQWN0aW9uIiwiaW5wdXRQYXRoIiwiY29uc29sZSIsImxvZyIsImNvbW1hbmRlciIsImRlc2NyaXB0aW9uIiwidmVyc2lvbiIsImFyZ3VtZW50cyIsImFjdGlvbiIsInBhcnNlIiwicHJvY2VzcyIsImFyZ3YiLCJhcmdzIiwibGVuZ3RoIiwiaGVscCJdLCJtYXBwaW5ncyI6IkFBQUE7OztBQUVBOztBQUNBOztBQUNBOzs7O0FBRUEsTUFBTUEsYUFBYSxHQUFJQyxTQUFELElBQWU7QUFDbkNDLEVBQUFBLE9BQU8sQ0FBQ0MsR0FBUixDQUFZLGVBQVVGLFNBQVYsQ0FBWjtBQUNELENBRkQ7O0FBSUFHLG1CQUNHQyxXQURILENBQ2UsK0NBRGYsRUFFR0MsT0FGSCxDQUVXQSxnQkFGWCxFQUdHQyxTQUhILENBR2EsY0FIYixFQUlHQyxNQUpILENBSVVSLGFBSlYsRUFLR1MsS0FMSCxDQUtTQyxPQUFPLENBQUNDLElBTGpCOztBQU9BLElBQUlQLG1CQUFVUSxJQUFWLENBQWVDLE1BQWYsS0FBMEIsQ0FBOUIsRUFBaUM7QUFDL0JULHFCQUFVVSxJQUFWO0FBQ0QiLCJzb3VyY2VzQ29udGVudCI6WyIjIS91c3IvYmluL2VudiBub2RlXG5cbmltcG9ydCBjb21tYW5kZXIgZnJvbSAnY29tbWFuZGVyJztcbmltcG9ydCB7IHZlcnNpb24gfSBmcm9tICcuLi8uLi9wYWNrYWdlLmpzb24nO1xuaW1wb3J0IGNhbGNMaW5lbiBmcm9tICcuLic7XG5cbmNvbnN0IHByb2Nlc3NBY3Rpb24gPSAoaW5wdXRQYXRoKSA9PiB7XG4gIGNvbnNvbGUubG9nKGNhbGNMaW5lbihpbnB1dFBhdGgpKTtcbn07XG5cbmNvbW1hbmRlclxuICAuZGVzY3JpcHRpb24oJ0NhbGN1bGF0ZXMgdGhlIGN1dHRpbmcgb2YgYSBzZXQgb2YgYmVkIGxpbmVuLicpXG4gIC52ZXJzaW9uKHZlcnNpb24pXG4gIC5hcmd1bWVudHMoJzxpbnB1dF9maWxlPicpXG4gIC5hY3Rpb24ocHJvY2Vzc0FjdGlvbilcbiAgLnBhcnNlKHByb2Nlc3MuYXJndik7XG5cbmlmIChjb21tYW5kZXIuYXJncy5sZW5ndGggPT09IDApIHtcbiAgY29tbWFuZGVyLmhlbHAoKTtcbn1cbiJdfQ==

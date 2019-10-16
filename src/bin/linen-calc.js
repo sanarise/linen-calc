@@ -4,8 +4,8 @@ import commander from 'commander';
 import { version } from '../../package.json';
 import calcLinen from '..';
 
-const processAction = (inputFile) => {
-  console.log(calcLinen(inputFile));
+const processAction = (inputPath) => {
+  console.log(calcLinen(inputPath));
 };
 
 commander
