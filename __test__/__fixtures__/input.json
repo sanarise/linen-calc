@@ -1,8 +1,14 @@
 [
   {
+    "type": "pillow",
+    "fabricId": 6021,
+    "width": 70,
+    "height": 50
+  },
+  {
     "count": 2,
     "type": "pillow",
-    "fabric": 6021,
+    "fabricId": 6021,
     "width": 50,
     "height": 50,
     "flange": {

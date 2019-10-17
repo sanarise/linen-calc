@@ -2,8 +2,8 @@ import _ from 'lodash';
 
 const fabricFeatures = {
   'tencel 60x60': {
-    shrinkCoefAlong: 0.975,
-    shrinkCoefAcross: 0.99,
+    shrinkCoefAlong: 1.025,
+    shrinkCoefAcross: 1.01,
     rough: false,
   },
   'tencel 40x40': {
@@ -13,18 +13,18 @@ const fabricFeatures = {
     // TODO
   },
   'satin 60x60': {
-    shrinkCoefAlong: 0.96,
-    shrinkCoefAcross: 0.98,
+    shrinkCoefAlong: 1.05,
+    shrinkCoefAcross: 1.02,
     rough: false,
   },
   'satin 60x40': {
-    shrinkCoefAlong: 0.96,
-    shrinkCoefAcross: 0.98,
+    shrinkCoefAlong: 1.04,
+    shrinkCoefAcross: 1.02,
     rough: true,
   },
   'satin 40x40': {
-    shrinkCoefAlong: 0.96,
-    shrinkCoefAcross: 0.98,
+    shrinkCoefAlong: 1.04,
+    shrinkCoefAcross: 1.02,
     rough: true,
   },
   'satin twill': {
